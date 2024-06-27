@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wiki desk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/pacman.css' rel='stylesheet'>
+</head>
+<body class="gradient">
+    
+    <div class="desktop">
+        <div class="event-upcoming">
+            <div class="event-header">
+                <span>// {Upcoming Events}</span>
+                <!-- <button class="close-button" data-modal="event-upcoming">&times;</button> -->
+            </div>
+            <!-- <div class="event-upcoming-content">
+                <p>There are no upcoming events.</p>
+            </div> -->
+            <ul>
+                <li>Hackathon and Tech Demo</li>
+                <li>Community Outreach and end of sem celebration </li>
+            </ul>
+            
+        </div>
+
+
+        <div class="taskbar">
+            <button class="taskbar-button" id="start-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 5H19V19H16L16 8H5V5Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M10 19C12.7614 19 15 16.7614 15 14C15 11.2386 12.7614 9 10 9C7.23858 9 5 11.2386 5 14C5 16.7614 7.23858 19 10 19ZM10 16C11.1046 16 12 15.1046 12 14C12 12.8954 11.1046 12 10 12C8.89543 12 8 12.8954 8 14C8 15.1046 8.89543 16 10 16Z" fill="currentColor" /></svg></button>
+            <div class="clock" id="clock"></div>
+            <button class="taskbar-button" id="chat-button" disabled><img src="https://img.icons8.com/?size=100&id=16027&format=png&color=000000" style="width:20px;"></button>
+            <button class="taskbar-button" id="calendar-button" disabled><img src="https://img.icons8.com/?size=100&id=116329&format=png&color=000000" style="width: 20px"></button>
+            <button class="taskbar-button" id="notification-button" disabled>alerts</button>
+        </div>
+
+        <button class="icon icon1" id="icon1" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=wkc1eVpP5KAQ&format=png&color=ffffff" alt="Icon 1">
+            <p>cmd</p>
+        </button>
+        
+        <div class="icon icon2" id="icon2" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=SoFO5siXDaP7&format=png&color=ffffff" alt="Icon 2">
+            <span>core team</span>
+        </div>
+        <div class="icon icon3" id="icon3" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=4n3eeLfBDFgm&format=png&color=ffffff" alt="Icon 3">
+            <span>projects</span>
+        </div>
+        <div class="icon icon4" id="icon4" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=106562&format=png&color=ffffff" alt="Icon 4">
+            <span>github</span>
+        </div>
+        <div class="icon icon5" id="icon5" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=d7cg2tuAfRWZ&format=png&color=ffffff" alt="Icon 5">
+            <span>Icon 5</span>
+        </div>
+        <div class="icon icon6" id="icon6" draggable="true">
+            <img src="https://img.icons8.com/?size=100&id=VD4ra88PocFa&format=png&color=ffffff" alt="Icon 6">
+            <span>Partners</span>
+        </div>
+        <div class="icon icon7" id="icon7">
+            <img src="https://img.icons8.com/?size=100&id=MgH5EHKyvgjX&format=png&color=ffffff" alt="Icon 6">
+            <span>Quotes</span>
+        </div>
+
+        <p class="centered_text " id="greetings">
+            I AM TECHWIKIZEN
+        </p>
+        <li class="centered_text1">Community Outreach and end of sem celebration </li>
+
+
+
+        <div class="modal modal-touch modal-1" id="modal-1" draggable="true">
+            <div class="modal-header">
+                <span class="modal-title">Modal 1</span>
+                <button class="close-button" data-modal="modal-1">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="prompt">
+                    <span>Enter a command:</span>
+                    <input type="text" id="command" placeholder="Type a command...">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-touch modal-2" id="modal-2" draggable="true">
+            <div class="modal-header">
+                <span class="modal-title">THE CORE TEAM</span>
+                <button class="close-button" data-modal="modal-2">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="main">
+                    <p>Meet the core team of the College Student Developer Club.</p><hr>
+                    <div class="card-grid">
+                       <div class="card">
+                        <a href="https://meta.wikimedia.org/wiki/User:Pnlarbi"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pnlarbi.jpg" alt="">
+                       </a> <div class="card-content">
+                            <p>Prince Larbi ~ President</p>
+                        </div>                        
+                    </div>
+
+                    <div class="card">
+                        <a href="https://meta.wikimedia.org/wiki/User:Ikeasamoahansah">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Developer_Group_Accra_Attendee.jpg" alt="">
+                      </a>   <div class="card-content">
+                            <p>Ike Asamoah-Ansah ~ Vice President</p>
+                        </div>
+                                                
+                    </div>    
+                    
+                    <div class="card">
+                        <a href="https://meta.wikimedia.org/wiki/User:Trishmapak">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Akosah_Trishelle.jpg/320px-Akosah_Trishelle.jpg" alt="">
+                       </a>  <div class="card-content">
+                            <p>Trishelle Akosah</p>
+                        </div>
+                       
+                        
+                    </div>
+                    <div class="card">
+                        <a href="https://meta.wikimedia.org/wiki/User:A.elikem">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Codeday_Atendee.jpg/320px-Codeday_Atendee.jpg" alt="">
+                        </a> <div class="card-content">
+                            <p>Elikem Attah Yao Ata ~ Club Manager</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                            <a href="https://meta.wikimedia.org/wiki/User:Ntowfk">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                            </a> <div class="card-content">
+                                <p>Frederick Kwaku Ntow ~ Treasurer</p>
+                            </div>                                     
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                    </a> <div class="card-content">
+                        <p>Emmanuel Awusah ~ Event Organiser 1</p>
+                    </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                </a> <div class="card-content">
+                    <p>Elizabeth Tandoh ~ Event Organiser 2</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                </a> <div class="card-content">
+                    <p>Caleb Dussey ~ Design Lead</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                </a> <div class="card-content">
+                    <p>Nisy Adjei ~ Publicity Lead</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <a href="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wikimedia_Foundation_hall_blurred.jpg/1365px-Wikimedia_Foundation_hall_blurred.jpg" alt="">
+                </a> <div class="card-content">
+                    <p>William Aborah ~ Discord Moderator</p>
+                </div>
+        </div>
+
+        </div></div></div></div>
+
+        <div class="modal" id="modal3">
+            <div class="modal-header">
+                <span class="modal-title">Modal 3</span>
+                <button class="close-button" data-modal="modal3">&times;</button>
+            </div>
+            <div class="modal-content">
+                <p>This is the content of Modal 3.</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal4">
+            <div class="modal-header">
+                <span class="modal-title">Modal 4</span>
+                <button class="close-button" data-modal="modal4">&times;</button>
+            </div>
+            <div class="modal-content">
+                <p>This is the content of Modal 4.</p>
+            </div>
+        </div>
+        <div class="chat-panel" id="chat-panel">
+            <div class="chat-header">
+                <span>Chat</span>
+                <button class="close-button" data-modal="chat-panel">&times;</button>
+            </div>
+            <div class="chat-content">
+                <p>Welcome to the chat!</p>
+            </div>
+        </div>
+        <div class="calendar-panel" id="calendar-panel">
+            <div class="calendar-header">
+                <span>Calendar</span>
+                <button class="close-button" data-modal="calendar-panel">&times;</button>
+            </div>
+            <div class="calendar-content">
+                <p>This is the calendar.</p>
+            </div>
+        </div>
+        <div class="notification-panel" id="notification-panel" draggable="true">
+            <div class="notification-header">
+                <span>Notifications</span>
+                <button class="close-button" data-modal="notification-panel">&times;</button>
+            </div>
+            <div class="notification-content">
+                <p>No new notifications.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- floating ship -->
+    <div class="floating_ship"><img src="https://img.icons8.com/?size=100&id=32185&format=png&color=ffffff" alt=""></div>
+
+      <script src="script.js"></script>
+    <script src="typewriter.js"></script>
+    <!-- <script src="rocks.js"></script> -->
+</body>
+</html>
