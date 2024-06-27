@@ -1,5 +1,5 @@
 const greetingsDiv = document.getElementById('greetings');
-const greetingsTexts = ["I AM TECHWIKIZEN", "I AM A DEVELOPER", "I AM A BLOGGER", "I AM A LEARNER", "I AM A TEACHER", "I AM A GHANAIAN", "I AM AN ENVIRONMENTALIST"];
+const greetingsTexts = ["I AM TECHWIKIZEN", "I AM A DEVELOPER", "I AM A BLOGGER", "I AM A LEARNER", "I AM A TEACHER", "I AM AN ENVIRONMENTALIST"];
 let currentGreetingIndex = 0;
 let currentCharIndex = 0;
 let isTypingReverse = false;
