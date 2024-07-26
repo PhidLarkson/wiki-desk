@@ -9,13 +9,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 <link href='https://unpkg.com/css.gg@2.0.0/icons/css/pacman.css' rel='stylesheet'>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 <body class="gradient">
     
     <div class="desktop">
         <div class="event-upcoming">
             <div class="event-header">
-                <span>// {Upcoming Events}</span>
+                <span>// <em class="fa-solid fa-circle"></em> {Upcoming Events}</span>
                 <!-- <button class="close-button" data-modal="event-upcoming">&times;</button> -->
             </div>
             <!-- <div class="event-upcoming-content">
@@ -23,7 +25,7 @@
             </div> -->
             <ul>
                 <li>Hackathon and Tech Demo</li>
-                <li>Community Outreach and end of sem celebration </li>
+                <li>Community Outreach and end of sem celebration <i data-feather="circle"></i></li>
             </ul>
             
         </div>
@@ -76,13 +78,14 @@
 
         <div class="modal modal-touch modal-1" id="modal-1" draggable="true">
             <div class="modal-header">
-                <span class="modal-title">Modal 1</span>
+                <span class="modal-title">JALI AI</span>
                 <button class="close-button" data-modal="modal-1">&times;</button>
             </div>
             <div class="modal-content">
                 <div class="prompt">
-                    <span>Enter a command:</span>
-                    <input type="text" id="command" placeholder="Type a command...">
+                    <!-- <span>Enter a command:</span>
+                    <input type="text" id="command" placeholder="Type a command..."> -->
+                    <iframe src="https://jali-demo-3f5f4c81ac3a.herokuapp.com/" frameborder="0" style="width: 100%; height: 1000px"></iframe>
                 </div>
             </div>
         </div>
